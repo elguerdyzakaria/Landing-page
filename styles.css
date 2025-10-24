@@ -13,7 +13,6 @@ body {
 
 /*---------------------------------- CSS FOR HERO SECTION --------------------------------------*/
 .hero-section {
-    /* border: 5px solid red; */
     padding: 20px 130px 0 130px; 
     background-color: #0B132B;
     color: #FFF;
@@ -76,3 +75,36 @@ body {
 .hero-img {
     width: 450px;
 }
+
+/*---------------------------------- CSS FOR CARD SECTION --------------------------------------*/
+.card-section-title {
+    font-size: 36px;
+    color: #0B132B;
+    font-weight: 900;
+    /* border: 2px solid; */
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* CARD CONTAINER */
+.card-container {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.card {
+    flex-basis: 200px;
+}
+
+.card img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*---------------------------------- CSS FOR TESTIMONIAL SECTION -------------------------------*/
