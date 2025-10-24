@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* GLOBAL CSS RULES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*---------------------------------- CSS FOR HERO SECTION --------------------------------------*/
+.hero-section {
+    /* border: 5px solid red; */
+    padding: 20px 130px 0 130px; 
+    background-color: #0B132B;
+    color: #FFF;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px 0 25px 0;
+    line-height: 1.5;
+}
+
+.hero-button {
+    background-color: #00AEEF;
+    color: #FFF;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.hero-img {
+    width: 450px;
+}
