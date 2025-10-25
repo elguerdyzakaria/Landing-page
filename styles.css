@@ -160,3 +160,14 @@ body {
 .CTA-button {
     border: 2px solid;
 }
+
+/*---------------------------------- CSS FOR FOOTER ---------------------------------------*/
+.footer-section {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #0B132B;
+    font-size: 20px;
+}
