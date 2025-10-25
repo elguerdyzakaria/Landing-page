@@ -61,7 +61,7 @@ body {
     line-height: 1.5;
 }
 
-.hero-button {
+.btn {
     background-color: #00AEEF;
     color: #FFF;
     border: 0;
@@ -114,7 +114,6 @@ body {
     font-style: italic;
     font-size: 36px;
     height: 400px;
-
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -127,4 +126,37 @@ body {
     margin-left: auto;
     width: max-content;
     margin-top: 10px;
+}
+
+/*---------------------------------- CSS FOR CTA SECTION ---------------------------------------*/
+.CTA-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CTA~Call To Action CONTAINER */
+.CTA-container {
+    background-color: #00AEEF;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 40px 150px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA-title {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.CTA-subtitle {
+    color: #E5E7EB;
+}
+
+.CTA-button {
+    border: 2px solid;
 }
